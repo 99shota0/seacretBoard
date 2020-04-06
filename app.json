@@ -1,0 +1,8 @@
+{
+  "name": "secret-board",
+  "description": "秘密の匿名掲示板",
+  "repository": "https://github.com/99shota0/seacretBoard",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

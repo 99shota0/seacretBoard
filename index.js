@@ -15,7 +15,7 @@ const server = http.createServer(basic, (req, res) => {  router.route(req, res);
   console.error('Client Error', e);
 });
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 server.listen(port, () => {
   console.info('Listening on ' + port);
 });
